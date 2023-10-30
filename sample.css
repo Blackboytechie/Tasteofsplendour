@@ -1,0 +1,129 @@
+.navbar-nav .nav-link {
+  color: #fff; /* Change the text color to red */
+  align-items: center;
+  justify-content: center;
+}
+.navbar-nav .nav-link:hover {
+  color: #f1c40f; /* Change text color on hover */
+  /* Change background color on hover */
+}
+.navbar-nav .active {
+  color: #f1c40f;
+}
+.navbar-toggler-btn {
+  background-color: #f1c40f;
+}
+
+#myCarousel {
+  width: 100%; /* Set your desired width */
+  height: 400px; /* Set your desired height */
+}
+.carousel-item {
+  width: 100%; /* Set your desired width */
+  height: 400px; /* Set your desired height */
+}
+.custom-image {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+.custom-card-img {
+  width: 150px;
+  height: 150px;
+}
+.custom-card {
+  width: 250px;
+  margin: 30px;
+  padding: 10px;
+}
+.custom-card:hover {
+  background-color: #f1c40f;
+}
+.custom-card:hover .btn {
+  background-color: white;
+  color: black;
+}
+.custom-card-menu {
+  width: 250px;
+  margin: 30px;
+  /* padding: 10px; */
+}
+/*responsive book a ticket*/
+.split-layout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #f0f0f0; /* Background color for the right side */
+}
+
+.image-side {
+  flex: 1; /* Makes the left side take up available space */
+  background: url("assets/restauranttable.jpeg") center/cover no-repeat; /* Set the background image */
+  min-height: 600px; /* Ensure the image covers the full height */
+}
+
+.form-side {
+  flex: 1; /* Makes the right side take up available space */
+  background-color: #a6acaf;
+  padding: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .split-layout {
+    flex-direction: column; /* Stack elements on small screens */
+  }
+
+  .image-side {
+    min-height: 200px; /* Adjust the minimum height for smaller screens */
+  }
+}
+.custom-chef-card {
+  width: 250px;
+  margin: 30px;
+  padding: 10px;
+}
+.custom-card-chefimg {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.custom-chef-p {
+  height: 150px;
+}
+.custom-card-img-div {
+  padding-left: 30px;
+}
+.footer {
+  background-color: #34495e;
+  padding: 20px;
+}
+.footer h4 {
+  color: #f1c40f;
+}
+.footer li {
+  color: #fff;
+}
+.footer p {
+  color: #fff;
+}
+/* Custom CSS for the Back to Top button */
+#back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+}
+
+#back-to-top:hover {
+    background-color: #0056b3;
+}
